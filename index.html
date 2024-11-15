@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Lokesh Shimpi</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                      <a class="links" href="#about">
+                            About
+                        </a>
+                  </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#project">
+                              Project
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#techstack">
+                              Tech Stack
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Lokesh Shimpi</h1>
+                <h3 class="sub-heading">
+                    Web Developer
+                </h3>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn" ><a href="Lokesh Shimpi Resume.pdf" >Get Resume</a></button>
+            </div>
+        </div>
+        <div class="hero-img">
+        <img src="img\crm1.png" alt="Developer Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+          <h1 class="my-heading">About Me</h1>
+          <p class="lead-para">
+            Hello! My name is Lokesh Shimpi, and I am currently in the third year of my Bachelor's degree in Computer Engineering at SSBT's College Of Engineering and Technology. I am a full-stack developer with a specialization in the MERN stack (MongoDB, Express, React, and Node.js). My journey in software development has been driven by a deep passion for solving problems and building scalable, user-friendly applications.
+
+            Throughout my academic and professional career, I have developed numerous projects that showcase my expertise in both frontend and backend development. I have worked on real-world projects.
+          </p>
+      </div>
+      <div class="about-image">
+          <img src="img\lokesh.jpg" alt="About Image">
+      </div>
+  </section>
+
+
+    <!-- Portfolio Section -->
+    <section class="project" id="project">
+        <div class="project-heading">
+            <h1 class="my-heading text-center">Project's</h1>
+        </div>
+        <div class="project-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\weatherweb.jpg" 
+                                 alt="Weather Website Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Weather Website</h3>
+                        <p class="small-para blue-text">Weather Forecast Website
+A dynamic and interactive weather application built with React, HTML, CSS, and JavaScript. Provides real-time weather updates with a sleek and user-friendly interface. 
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\extenstion.jpg" 
+                                 alt="Background Color Changer Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Background Color Changer
+                          </h3>
+                        <p class="small-para blue-text">Background Color Changer Extension
+                            A Chrome extension built with HTML, CSS, JavaScript, and JSON that allows users to personalize their browsing experience by dynamically changing webpage background colors with ease.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\qr.jpg" alt="QR code generator Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">QR code generator</h3>
+                        <p class="small-para blue-text">Dynamic QR Code Generator
+                            A web application built with HTML, CSS, and JavaScript to generate custom QR codes instantly for URLs, text, and more. Designed for seamless integration and user-friendly functionality.
+                            <button class="btn common-btn"><a href="https://qr-code-generator-orcin-nine.vercel.app/">Demo</a></button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\password-generator.jpg" 
+                                 alt="Random password-generator Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Random password-generator
+                          </h3>
+                        <p class="small-para blue-text">Random Password Generator
+                            A secure tool created with HTML, CSS, and JavaScript to generate strong and customizable passwords. Provides user-defined options for length and character types to enhance security.
+                            <button class="btn common-btn"><a href="https://random-password-generator-phi-jet.vercel.app/" >Demo</a></button>
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\simongame.jpg" 
+                                 alt="Simon Game Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Simon Game
+                          </h3>
+                        <p class="small-para blue-text">
+                            Interactive Simon Game
+                            A memory-based game developed with HTML, CSS, and JavaScript, replicating the classic Simon game. Features vibrant animations, sound effects, and an engaging gameplay experience.
+                            <button class="btn common-btn"><a href="https://simon-game-pi-tan.vercel.app/">Demo</a></button>
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="img\ccwebsite.jpg" 
+                                 alt="Creative Creation Website Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Creative Creation Website
+                          </h3>
+                        <p class="small-para blue-text">Landing page built with HTML and CSS. Features clean design, intuitive layout, and optimized for all styles.
+                            <button class="btn common-btn"><a href="https://creative-creation-website-0.vercel.app/" >Demo</a></button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="techstack" id="techstack">
+        <div class="techstack-heading">
+            <h1 class="my-heading text-center">Tech Stack</h1>
+        </div>
+        <div class="techstack-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">HTML</h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-css3"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              CSS
+                          </h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              React
+                          </h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              JAVA
+                          </h3>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              PYTHON
+                          </h3>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form" name="submit-to-google-sheet">
+                    <input class="form-controls" type="text" name="Name"
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" name="Email"
+                           placeholder="Your Email">
+                    <input class="form-controls" type="number" name="Phone"
+                           placeholder="Your Phone Number">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL :</h5>
+                    <p class="contact-text">luckyshimpi2424@gmail.com</p>
+                </div>
+                <div class="social-links">
+                  <div class="footer-menu">
+                      <ul class="footer-menu-list">
+                      <li class="footer-list-items">
+                          <a class="footer-links" href="https://github.com/Lokesh-Shimpi">
+                              <i class="fab fa-github"></i>
+                          </a>
+                      <li class="footer-list-items">
+                          <a class="footer-links" href="https://www.linkedin.com/in/lokesh-shimpi-83a0a02b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                              <i class="fab fa-linkedin-in"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2024 All rights reserved Lokesh Shimpi
+            </h4>
+    </div>
+</footer>
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+    integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbQMMIlg2uO9l8NVdxZN9XTvmywrgNlkSUCYDtAZDzEMZJyRrfwvwwF1DA6Nxuf13dhQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
